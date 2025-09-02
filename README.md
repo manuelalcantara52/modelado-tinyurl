@@ -1,4 +1,4 @@
-# Evaluación: Implementación de Servicio TinyURL usando Tabla Hash
+# Implementación de TinyURL usando Tabla Hash
 
 **Modelado y Programación**
 
@@ -131,11 +131,7 @@ Responde las siguientes preguntas sobre el servicio TinyURL implementado:
 
 2. **Probabilidad de colisiones**: Si tenemos 1 millón de URLs almacenadas, ¿cuál es la probabilidad aproximada de que se genere un código duplicado al insertar una nueva URL? ¿Cómo afecta esto al rendimiento?
 
-3. **Análisis de rendimiento**: ¿Cuál es la complejidad temporal del método `generateUniqueCode()` en el peor caso? ¿Qué factores afectan esta complejidad y cómo podrías optimizarla?
-
-4. **Escalabilidad**: Si el sistema necesita manejar 100 millones de URLs, ¿qué modificaciones harías al diseño actual? Considera tanto la longitud de los códigos como la estructura de datos subyacente.
-
-5. **Comparación de enfoques**: ¿Cuáles son las ventajas y desventajas de permitir URLs duplicadas (generar códigos diferentes) versus detectar y reutilizar códigos existentes? Analiza el impacto en memoria, rendimiento y experiencia de usuario.
+3. **Escalabilidad**: Si el sistema necesita manejar 100 millones de URLs, ¿qué modificaciones harías al diseño actual? Considera tanto la longitud de los códigos como la estructura de datos subyacente.
 
 ## Instrucciones de Compilación y Ejecución
 
